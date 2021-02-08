@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Blood';
+  src: url("/hangman-challenge/assets/BLOODSEEKER - DEMO.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("/hangman-challenge/assets/BG/mobileBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  h1 {
+    background-color: black;
+    color: #660000;
+    padding: 0.75rem;
+    text-align: center;
+    font-family: "Blood";
+    font-size: 1.5rem;
+  }
+  .word {
+    margin-top: 1rem;
+    background-color: #660000;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+  }
+  .game {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  img {
+    width: 60%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .btnBox {
+    margin-top: 1rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .btn {
+    font-family: "Blood";
+    padding: 0.5em;
+    background-color: #660000;
+    border: none;
+    color: black;
+    width: 2rem;
+    margin: 0.17rem;
+    font-size: 0.75rem;
+    -webkit-box-shadow: 3px 3px 3px black;
+            box-shadow: 3px 3px 3px black;
+    border-radius: 1rem;
+    text-shadow: 3px 3px 3px #330000;
+  }
+}
+/*# sourceMappingURL=style.css.map */

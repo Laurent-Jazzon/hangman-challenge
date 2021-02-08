@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'Blood';
+    src: url("/hangman-challenge/assets/BLOODSEEKER\ -\ DEMO.ttf") format("truetype");
+    font-display: swap;
+}
+$docFont : "Blood";
+$docColor : #660000;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    // BG
+    body{
+        background-image: url("/hangman-challenge/assets/BG/mobileBg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    // HEADER 
+    h1{
+        background-color: black;
+        color: $docColor;
+        padding: 0.75rem;
+        text-align: center;
+        font-family: $docFont;
+        font-size: 1.5rem;
+    }
+    // WORD
+    .word{
+        margin-top: 1rem;
+        background-color: $docColor;
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0.75rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+    // MAIN
+    .game{
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: center;
+    }
+    // IMAGE
+    img{
+        width: 60%;
+        align-self: center;
+    }
+    
+    // BUTTONS BOX 
+    .btnBox{
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-between;
+    }
+    // BUTTONS
+    .btn{
+        font-family: $docFont;
+        padding: 0.5em;
+        background-color: $docColor;
+        border:none;
+        color: black;
+        width: 2rem;
+        margin: 0.17rem;
+        font-size: 0.75rem;
+        box-shadow: 3px 3px 3px black;
+        border-radius: 1rem;
+        text-shadow: 3px 3px 3px #330000;
+    }
+}
+
+
