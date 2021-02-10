@@ -33,8 +33,14 @@
     margin-right: auto;
     text-align: center;
     padding: 0.75rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 2rem;
+    -webkit-box-shadow: 3px 3px 3px black;
+            box-shadow: 3px 3px 3px black;
+    font-family: "Blood";
+  }
+  .hide {
+    display: none;
   }
   .game {
     margin-top: 1rem;
@@ -53,7 +59,8 @@
         align-content: center;
   }
   img {
-    width: 60%;
+    width: 18rem;
+    height: 18rem;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -72,7 +79,6 @@
     padding: 0.5em;
     background-color: #660000;
     border: none;
-    color: black;
     width: 2rem;
     margin: 0.17rem;
     font-size: 0.75rem;
