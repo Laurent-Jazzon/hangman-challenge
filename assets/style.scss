@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'SP';
-    src: url("/hangman-challenge/assets/south\ park.ttf") format("truetype");
+    src: url("/hangman-challenge/assets/font/south\ park.ttf") format("truetype");
     font-display: swap;
 }
 $docFont : "SP";
@@ -12,14 +12,14 @@ $docColor : #ee590f;
 }
 @media only screen and (max-width : 570px){
     body{
-        background-image: url("/hangman-challenge/assets/BG/desktopBg.jpg");
+        background-image: url("/hangman-challenge/assets/Image/Bg/mobileBg.jpg");
     }
 
 }
 
     // BG
     body{
-        background-image: url("/hangman-challenge/assets/BG/desktopBg.jpg");
+        background-image: url("/hangman-challenge/assets/Image/Bg/desktopBg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
