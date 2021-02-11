@@ -11,7 +11,26 @@
         "/hangman-challenge/assets/Image/Hangman-07.svg",
         "/hangman-challenge/assets/Image/Hangman-08.svg",
         "/hangman-challenge/assets/Image/Hangman-09.svg",
-        "/hangman-challenge/assets/Image/Hangman-10.svg"
+        "/hangman-challenge/assets/Image/Hangman-10.svg",
+        "/hangman-challenge/assets/Image/Hangman-11.svg"
+    ];
+    let words = [
+        "RANDY",
+        "STAN",
+        "KENNY",
+        "KYLE",
+        "CARTMAN",
+        "JIMBO",
+        "NED",
+        "HANKEY",
+        "SERVIETSKY",
+        "JESUS",
+        "SATAN",
+        "CHIEF",
+        "BUTTERS",
+        "LINDA",
+        "TOKEN",
+        "GARRISON"
     ];
     // value for gallery functioning
     let i = 1;
@@ -19,6 +38,8 @@
     let a = 0;
 
     let img = document.getElementById("image");
+
+    document.getElementById("word").innerHTML = words[Math.floor(words.length * Math.random())];
 
     // visible word creation
     let word = document.getElementById("word").innerHTML;
@@ -33,35 +54,43 @@
         word[a] = "_";
         a++;
     });
-    document.getElementById("word").innerHTML = word;
-    // define each buttons
-    let chance = document.querySelectorAll("button")
+    document.getElementById("word").innerHTML = word.join(" ");
+
+    // buttons checker
+    let chance = document.querySelectorAll("button.btn")
     chance.forEach(k =>{
         k.addEventListener("click",function(){
             let x = 0;
-                hide.forEach(p => {
-                    if(p === k.innerHTML){
-                        word[x] = hide[x];
-                        document.getElementById("word").innerHTML = word;
-                    }
-                    x++
-                })
-                console.log(hide)
-                if (hide.includes(k.innerHTML) === false){
-                    document.getElementById("number").innerHTML = i;
-                    k.disabled = true;
-                    k.style.opacity = "0.5"
-                    img.src = gallery[i];
-                    i++;
-                    if (i === gallery.length-1){
-                        i = 10;
-                    }
-                } else {
-                    k.style.color = "green"
-                    k.disabled = "true"
+            hide.forEach(p => {
+                if(p === k.innerHTML){
+                    word[x] = hide[x];
+                    document.getElementById("word").innerHTML = word.join(" ");
                 }
+                x++
+            })
+            if ((i === 10)){
+                chance.forEach(b => b.disabled = true);
+            }
+            if (word.includes("_") === false){
+                img.src = gallery[11];
+                chance.forEach(z => z.disabled = true);
+            }
+            if (hide.includes(k.innerHTML) === false){
+                document.getElementById("number").innerHTML = i;
+                k.disabled = true;
+                k.style.opacity = "0.5";
+                img.src = gallery[i];
+                i++;
+                
+            } else {
+                k.style.color = "green";
+                k.disabled = "true";
+            }
         })
     });
-
-
+    // Restart button
+    let restart = document.querySelector("button.run")
+        restart.addEventListener("click",function(){
+            document.location.reload();
+        })
 })();

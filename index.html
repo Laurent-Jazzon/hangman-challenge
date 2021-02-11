@@ -13,10 +13,19 @@
             The Hangman
         </h1>
     </header>
-    <p class="word" id="word">MOON</p>
-    <p class="count">Fails <span id="number">0</span> / 10</p>
     <div class="game">
+
+        <!-- IMAGE -->
         <img class="carousel"  id="image" src="/hangman-challenge/assets/Image/Hangman-00.svg" alt="the hangman pictures">
+
+        <!-- ANSWER -->
+        <div class="answer">
+            <p class="word" id="word"></p>
+            <p class="count">Fails <span id="number">0</span> / 10</p>
+        </div>
+        <p class="rules">find the Southpark charachter's names</p>
+
+        <!-- BUTTONS -->
         <div class="btnBox">
             <button class="btn" id="runA">A</button>
             <button class="btn" id="runB">B</button>
@@ -45,7 +54,9 @@
             <button class="btn" id="runY">Y</button>
             <button class="btn" id="runZ">Z</button>
         </div>
-        
+        <div>
+            <button class="run">Reset</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -1,20 +1,25 @@
 @font-face{
-    font-family: 'Blood';
-    src: url("/hangman-challenge/assets/BLOODSEEKER\ -\ DEMO.ttf") format("truetype");
+    font-family: 'SP';
+    src: url("/hangman-challenge/assets/south\ park.ttf") format("truetype");
     font-display: swap;
 }
-$docFont : "Blood";
-$docColor : #660000;
+$docFont : "SP";
+$docColor : #ee590f;
 
 *{
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-width : 570px){
+    body{
+        background-image: url("/hangman-challenge/assets/BG/desktopBg.jpg");
+    }
 
-@media only screen and (max-width: 600px) {
+}
+
     // BG
     body{
-        background-image: url("/hangman-challenge/assets/BG/mobileBg.jpg");
+        background-image: url("/hangman-challenge/assets/BG/desktopBg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -24,65 +29,107 @@ $docColor : #660000;
     h1{
         background-color: black;
         color: $docColor;
-        padding: 0.75rem;
+        padding: 2vh;
         text-align: center;
         font-family: $docFont;
-        font-size: 1.5rem;
+        font-size: 5vh;
     }
     //COUNTER
     .count{
-        @extend.word;
-    }
-    // WORD
-    .word{
         margin-top: 1rem;
+        background-color: $docColor;
+        width: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0.5vh;
+        font-size: 1.5vh;
+        border-radius: 2vh;
+        box-shadow: 3px 3px 3px black;
+        font-family: $docFont;
+    }
+    // RULES
+    .rules{
+        margin-top: 3vh;
         background-color: $docColor;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        padding: 1rem;
-        font-size: 1.5rem;
-        border-radius: 2rem;
+        padding: 1vh;
+        font-size: 2vh;
+        border-radius: 2vh;
+        box-shadow: 3px 3px 3px black;
+        font-family: $docFont;
+    }
+    // WORD
+    .word{
+        margin-top: 2vh;
+        background-color: $docColor;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 2vh;
+        font-size: 3vh;
+        border-radius: 2vh;
         box-shadow: 3px 3px 3px black;
         font-family: $docFont;
     }
     // MAIN
     .game{
-        margin-top: 1rem;
+        margin-top: 3vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: column;
         align-content: center;
     }
+    .answer{
+        display: flex;
+    }
     // IMAGE
     img{
-        width: 18rem;
-        height: 18rem;
+        width: 50vh;
         align-self: center;
     }
-    
     // BUTTONS BOX 
     .btnBox{
-        margin-top: 1rem;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        display: flex;
         flex-wrap: wrap;
         width: 80%;
-        justify-content: space-between;
+        justify-content: center;
     }
     // BUTTONS
     .btn{
         font-family: $docFont;
-        padding: 0.5em;
+        padding: 1vh;
         background-color: $docColor;
         border:none;
-        width: 2rem;
+        width: 5vh;
         margin: 0.17rem;
-        font-size: 0.75rem;
+        font-size: 2vh;
         box-shadow: 3px 3px 3px black;
-        border-radius: 1rem;
-        text-shadow: 3px 3px 3px #330000;
+        border-radius: 1.5vh;
+        justify-content: center;
     }
-}
-
+    // RESTART BUTTON
+    .run{
+        display: flex;
+        background-color: $docColor;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vh;
+        text-align: center;
+        padding: 1vh;
+        font-size: 2.5vh;
+        border-radius: 2vh;
+        box-shadow: 3px 3px 3px black;
+        font-family: $docFont;
+        border:none;
+        align-content: center;
+    }
 

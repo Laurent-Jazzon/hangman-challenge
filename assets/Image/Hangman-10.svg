@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
@@ -11,91 +11,80 @@
 	.st5{fill:#C19A6B;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
 	.st6{fill:#2D1805;}
 	.st7{fill:#FFFFFF;}
-	.st8{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st9{fill:none;stroke:#C19A6B;stroke-width:10;stroke-miterlimit:10;}
-	.st10{fill:#C19A6B;stroke:#000000;stroke-width:0.5;stroke-miterlimit:9.9998;}
+	.st10{fill:#C19A6B;stroke:#000000;stroke-width:0.5;stroke-miterlimit:9.9997;}
 	.st11{fill:#FBDEBC;}
-	.st12{fill:#FBDEBC;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st12{fill:#FBDEBC;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10.0002;}
 	.st13{fill:#EFEF00;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st14{font-family:'BLOODSEEKERDEMO';}
+	.st15{font-size:75px;}
 </style>
-<g id="Calque_1">
-	
-		<radialGradient id="SVGID_1_" cx="459.25" cy="85.5993" r="749.7873" gradientTransform="matrix(1 0 0 -1 0 799.9993)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#FFDB00"/>
-		<stop  offset="0" style="stop-color:#FFC40F"/>
-		<stop  offset="0" style="stop-color:#FD5E53"/>
-		<stop  offset="0.2576" style="stop-color:#CF413A"/>
-		<stop  offset="0.6039" style="stop-color:#961E1B"/>
-		<stop  offset="0.8617" style="stop-color:#730807"/>
-		<stop  offset="1" style="stop-color:#660000"/>
-	</radialGradient>
-	<rect x="-322.5" y="-2" class="st0" width="1563.5" height="1432.8"/>
-	<path class="st1" d="M817,751c-26-51-63-79-63-79s14,68-13,74c0,0-52-37-41-61c0,0-25,76-43,72s-38-59-38-59s-20,62.3-30,59.2
-		s-34-42.5-34-42.5s-6,44.9-18,42.6S491,672,491,672s3,87.7-22,85.4S432,686,432,686s2,72.8-13,71.4S392,709,392,709
-		s-3,44.8-17,48.4c-14,3.6-54-47.4-45-79.4c0,0-17,81-32,84s-44-44-38-77c0,0-10,83-23,83s-24-48-24-48s-33,50-25,60
-		c0,0-50-46-35-76c0,0-26,69-40,69s-40-68-32-81c0,0-47,51-41,78s-56-66-49-86s-26,148-26,148h371h481V751z"/>
-	<polygon class="st2" points="318.4,737.4 293.6,767 192.7,653.1 192.7,593 	"/>
-	<polygon class="st2" points="32,737.4 56.8,767 157.7,653.1 157.7,593 	"/>
-	<rect x="157.7" y="64" class="st2" width="35" height="703"/>
-	<rect x="157.7" y="64" class="st2" width="405.8" height="35"/>
-	
-		<rect x="137.6" y="142.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.1208 227.4093)" class="st2" width="235.7" height="35"/>
-	<path class="st3" d="M-14,736c26-51,63-79,63-79s-14,68,13,74c0,0,52-37,41-61c0,0,25,76,43,72s38-59,38-59s20,62.3,30,59.2
-		s34-42.5,34-42.5s6,44.9,18,42.6s46-85.3,46-85.3s-3,87.7,22,85.4s37-71.4,37-71.4s-2,72.8,13,71.4s27-48.4,27-48.4s3,44.8,17,48.4
-		c14,3.6,54-47.4,45-79.4c0,0,17,81,32,84s44-44,38-77c0,0,10,83,23,83s24-48,24-48s33,50,25,60c0,0,50-46,35-76c0,0,26,69,40,69
-		s40-68,32-81c0,0,47,51,41,78s56-66,49-86s26,148,26,148H467H-14V736z"/>
-	<circle class="st4" cx="753" cy="53.9" r="89.3"/>
-	<rect x="522.3" y="62" class="st5" width="8" height="38.3"/>
-	<polygon class="st6" points="562.5,321.4 583.6,344.4 597.8,371.3 602.2,429.9 585.7,429.9 585.7,417.1 582.2,387.5 578.3,371.3 
-		564.7,344.9 	"/>
-	<rect x="538.4" y="62" class="st5" width="8" height="38.3"/>
-	<polygon class="st6" points="507,319.8 485.9,342.8 471.7,369.7 467.3,428.3 483.8,428.3 483.8,415.5 487.3,385.9 491.2,369.7 
-		504.7,343.3 	"/>
-	<g>
-		<polygon class="st6" points="506.5,311.6 562,311.1 572.1,428.3 495.5,428.3 		"/>
-		<polygon points="516.4,310.6 495.6,330.8 516.4,339.4 510,348 533.7,374 		"/>
-		<polygon points="552.5,311.6 573.4,331.8 552.5,340.4 559,349.1 535.2,375 		"/>
-		<polygon class="st7" points="516.4,310.6 552.5,311.6 535.2,375 		"/>
-		<line class="st8" x1="535.2" y1="375" x2="535.2" y2="428.3"/>
-	</g>
-	<rect x="530.4" y="60.3" class="st5" width="8" height="144.9"/>
-	<path class="st9" d="M540.3,205.2c89.9,165.8-110.4,151.4-9.5,0"/>
-	
-		<rect x="521.8" y="199.9" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -37.1842 182.8324)" class="st10" width="25.3" height="8"/>
-	
-		<rect x="521.7" y="192" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -34.6519 182.3761)" class="st10" width="25.3" height="8"/>
-	
-		<rect x="521.7" y="184.2" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -32.1414 181.9704)" class="st10" width="25.3" height="8"/>
-	
-		<rect x="521.8" y="176.3" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -29.5868 181.578)" class="st10" width="25.3" height="8"/>
-	
-		<ellipse transform="matrix(0.4085 -0.9128 0.9128 0.4085 89.6065 658.0436)" class="st11" cx="552.5" cy="259.9" rx="65.5" ry="52.5"/>
-	
-		<ellipse transform="matrix(0.9993 -3.805083e-02 3.805083e-02 0.9993 -16.4246 18.4148)" class="st12" cx="475.6" cy="440.7" rx="10.1" ry="17.3"/>
-	<polygon class="st13" points="506.7,231.5 515.1,211.1 519.7,183.3 531.3,193.7 541.8,176 547.8,191.5 566.5,184.2 567.7,193.5 
-		586.6,187.4 596.9,202.8 617.9,209.4 612.9,224.3 629.4,237.5 620.1,249.1 619.7,270.2 609.5,261.4 603.4,273.7 596,260 
-		583.1,242.2 581.3,249.7 571,235.5 560.4,238.5 559.7,229.8 544.5,234 540,225.4 528.7,225.7 517.6,228.9 	"/>
-	<polygon class="st6" points="483.8,428.3 467.3,428.3 471,419.7 482.6,420.3 	"/>
-	
-		<ellipse transform="matrix(3.805083e-02 -0.9993 0.9993 3.805083e-02 129.3268 1018.9779)" class="st12" cx="593.9" cy="442.3" rx="17.3" ry="10.1"/>
-	<polygon class="st6" points="585.7,429.9 602.2,429.9 598.5,421.3 586.9,421.9 	"/>
-	<polygon points="495.5,428.3 495.5,455.5 573.4,455.5 572.1,428.3 	"/>
-	
-		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -274.3983 541.4965)" class="st6" cx="516.4" cy="602" rx="22.4" ry="8.1"/>
-	<polygon points="495.5,454.9 508.5,524.5 515.8,591.1 531.9,587.2 527.8,513.2 530.5,454.5 	"/>
-	<g>
-		
-			<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -263.1991 566.5336)" class="st6" cx="552.3" cy="601" rx="8.1" ry="22.4"/>
-		<polygon points="573.2,454.9 560.2,524.5 552.9,591.1 536.9,587.2 540.9,513.2 538.2,454.5 		"/>
-	</g>
-	<rect x="539.8" y="236.5" transform="matrix(0.9182 -0.3961 0.3961 0.9182 -55.8318 234.7682)" width="1.7" height="32.1"/>
-	
-		<rect x="530.7" y="251.5" transform="matrix(-4.891205e-02 -0.9988 0.9988 -4.891205e-02 290.3243 811.467)" width="1.7" height="32.1"/>
-	<rect x="556.3" y="266.3" transform="matrix(-0.9182 0.3961 -0.3961 -0.9182 1180.6278 321.0092)" width="1.7" height="32.1"/>
-	
-		<rect x="565.4" y="251.4" transform="matrix(4.891205e-02 0.9988 -0.9988 4.891205e-02 805.7324 -311.2144)" width="1.7" height="32.1"/>
-	<ellipse transform="matrix(0.4085 -0.9128 0.9128 0.4085 40.7952 664.2197)" cx="532.9" cy="300.6" rx="2.6" ry="15.8"/>
+<radialGradient id="SVGID_1_" cx="459.25" cy="714.4001" r="749.7873" gradientTransform="matrix(1 0 0 1 0 -6.103516e-05)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFDB00"/>
+	<stop  offset="0" style="stop-color:#FFC40F"/>
+	<stop  offset="0" style="stop-color:#FD5E53"/>
+	<stop  offset="0.2576" style="stop-color:#CF413A"/>
+	<stop  offset="0.6039" style="stop-color:#961E1B"/>
+	<stop  offset="0.8617" style="stop-color:#730807"/>
+	<stop  offset="1" style="stop-color:#660000"/>
+</radialGradient>
+<rect x="-322.5" y="-2" class="st0" width="1563.5" height="1432.8"/>
+<path class="st1" d="M817,751c-26-51-63-79-63-79s14,68-13,74c0,0-52-37-41-61c0,0-25,76-43,72s-38-59-38-59s-20,62.3-30,59.2
+	s-34-42.5-34-42.5s-6,44.9-18,42.6S491,672,491,672s3,87.7-22,85.4S432,686,432,686s2,72.8-13,71.4S392,709,392,709s-3,44.8-17,48.4
+	c-14,3.6-54-47.4-45-79.4c0,0-17,81-32,84s-44-44-38-77c0,0-10,83-23,83s-24-48-24-48s-33,50-25,60c0,0-50-46-35-76c0,0-26,69-40,69
+	s-40-68-32-81c0,0-47,51-41,78s-56-66-49-86s-26,148-26,148h371h481V751z"/>
+<polygon class="st2" points="318.4,737.4 293.6,767 192.7,653.1 192.7,593 "/>
+<polygon class="st2" points="32,737.4 56.8,767 157.7,653.1 157.7,593 "/>
+<rect x="157.7" y="64" class="st2" width="35" height="703"/>
+<rect x="157.7" y="64" class="st2" width="405.8" height="35"/>
+<rect x="137.6" y="142.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.1139 227.3939)" class="st2" width="235.7" height="35"/>
+<path class="st3" d="M-14,736c26-51,63-79,63-79s-14,68,13,74c0,0,52-37,41-61c0,0,25,76,43,72s38-59,38-59s20,62.3,30,59.2
+	s34-42.5,34-42.5s6,44.9,18,42.6s46-85.3,46-85.3s-3,87.7,22,85.4s37-71.4,37-71.4s-2,72.8,13,71.4s27-48.4,27-48.4s3,44.8,17,48.4
+	c14,3.6,54-47.4,45-79.4c0,0,17,81,32,84s44-44,38-77c0,0,10,83,23,83s24-48,24-48s33,50,25,60c0,0,50-46,35-76c0,0,26,69,40,69
+	s40-68,32-81c0,0,47,51,41,78s56-66,49-86s26,148,26,148H467H-14V736z"/>
+<circle class="st4" cx="753" cy="53.9" r="89.3"/>
+<rect x="522.3" y="62" class="st5" width="8" height="38.3"/>
+<polygon class="st6" points="562.5,321.4 583.6,344.4 597.8,371.3 602.2,429.9 585.7,429.9 585.7,417.1 582.2,387.5 578.3,371.3 
+	564.7,344.9 "/>
+<rect x="538.4" y="62" class="st5" width="8" height="38.3"/>
+<polygon class="st6" points="507,319.8 485.9,342.8 471.7,369.7 467.3,428.3 483.8,428.3 483.8,415.5 487.3,385.9 491.2,369.7 
+	504.7,343.3 "/>
+<g>
+	<polygon class="st6" points="506.5,311.6 562,311.1 572.1,428.3 495.5,428.3 	"/>
+	<polygon points="516.4,310.6 495.6,330.8 516.4,339.4 510,348 533.7,374 	"/>
+	<polygon points="552.5,311.6 573.4,331.8 552.5,340.4 559,349.1 535.2,375 	"/>
+	<polygon class="st7" points="516.4,310.6 552.5,311.6 535.2,375 	"/>
+	<line class="st8" x1="535.2" y1="375" x2="535.2" y2="428.3"/>
 </g>
-<g id="Calque_2">
+<rect x="530.4" y="60.3" class="st5" width="8" height="144.9"/>
+<path class="st9" d="M540.3,205.2c89.9,165.8-110.4,151.4-9.5,0"/>
+<rect x="521.8" y="199.9" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -37.1862 182.8327)" class="st10" width="25.3" height="8"/>
+<rect x="521.7" y="192" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -34.6483 182.3786)" class="st10" width="25.3" height="8"/>
+<rect x="521.7" y="184.2" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -32.1412 181.9643)" class="st10" width="25.3" height="8"/>
+<rect x="521.8" y="176.3" transform="matrix(0.9468 -0.3218 0.3218 0.9468 -29.5919 181.5783)" class="st10" width="25.3" height="8"/>
+<ellipse transform="matrix(0.4085 -0.9128 0.9128 0.4085 89.6165 658.0682)" class="st11" cx="552.5" cy="259.9" rx="65.5" ry="52.5"/>
+<ellipse transform="matrix(0.9993 -3.804991e-02 3.804991e-02 0.9993 -16.4245 18.4161)" class="st12" cx="475.6" cy="440.7" rx="10.1" ry="17.3"/>
+<polygon class="st13" points="506.7,231.5 515.1,211.1 519.7,183.3 531.3,193.7 541.8,176 547.8,191.5 566.5,184.2 567.7,193.5 
+	586.6,187.4 596.9,202.8 617.9,209.4 612.9,224.3 629.4,237.5 620.1,249.1 619.7,270.2 609.5,261.4 603.4,273.7 596,260 
+	583.1,242.2 581.3,249.7 571,235.5 560.4,238.5 559.7,229.8 544.5,234 540,225.4 528.7,225.7 517.6,228.9 "/>
+<polygon class="st6" points="483.8,428.3 467.3,428.3 471,419.7 482.6,420.3 "/>
+<ellipse transform="matrix(3.804991e-02 -0.9993 0.9993 3.804991e-02 129.314 1018.9786)" class="st12" cx="593.9" cy="442.3" rx="17.3" ry="10.1"/>
+<polygon class="st6" points="585.7,429.9 602.2,429.9 598.5,421.3 586.9,421.9 "/>
+<polygon points="495.5,428.3 495.5,455.5 573.4,455.5 572.1,428.3 "/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -274.4388 541.4944)" class="st6" cx="516.4" cy="602" rx="22.4" ry="8.1"/>
+<polygon points="495.5,454.9 508.5,524.5 515.8,591.1 531.9,587.2 527.8,513.2 530.5,454.5 "/>
+<g>
+	
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -263.1848 566.5544)" class="st6" cx="552.3" cy="601" rx="8.1" ry="22.4"/>
+	<polygon points="573.2,454.9 560.2,524.5 552.9,591.1 536.9,587.2 540.9,513.2 538.2,454.5 	"/>
 </g>
+<rect x="539.8" y="236.5" transform="matrix(0.9182 -0.3961 0.3961 0.9182 -55.7991 234.7978)" width="1.7" height="32.1"/>
+<rect x="515.5" y="266.6" transform="matrix(0.9988 -4.891220e-02 4.891220e-02 0.9988 -12.4462 26.3196)" width="32.1" height="1.7"/>
+<rect x="556.4" y="266.4" transform="matrix(0.9182 -0.3961 0.3961 0.9182 -66.2996 243.8159)" width="1.7" height="32.1"/>
+<rect x="550.2" y="266.6" transform="matrix(0.9988 -4.891220e-02 4.891220e-02 0.9988 -12.4031 28.0191)" width="32.1" height="1.7"/>
+<ellipse transform="matrix(0.4085 -0.9128 0.9128 0.4085 40.8401 664.1874)" cx="532.9" cy="300.6" rx="2.6" ry="15.8"/>
+<g id="Calque_2_1_">
+</g>
+<text transform="matrix(1 0 0 1 209.0162 132.75)" class="st14 st15">You loose</text>
 </svg>
