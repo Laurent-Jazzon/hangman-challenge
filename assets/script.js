@@ -61,6 +61,7 @@
                 chance.forEach(z => z.disabled = true);
             }
             if (hide.includes(k.innerHTML) === false){
+                console.log(i);
                 z++;
                 document.getElementById("number").innerHTML = z;
                 k.disabled = true;
