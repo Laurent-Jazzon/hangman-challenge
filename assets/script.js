@@ -15,30 +15,18 @@
         "/hangman-challenge/assets/Image/Hangman-11.svg"
     ];
     let words = [
-        "RANDY",
-        "STAN",
-        "KENNY",
-        "KYLE",
-        "CARTMAN",
-        "JIMBO",
-        "NED",
-        "HANKEY",
-        "SERVIETSKY",
-        "JESUS",
-        "SATAN",
-        "CHIEF",
-        "BUTTERS",
-        "LINDA",
-        "TOKEN",
-        "GARRISON"
+        "RANDY","STAN","KENNY","KYLE","CARTMAN","JIMBO","NED","HANKEY","SERVIETSKY","JESUS","SATAN","CHIEF","BUTTERS","LINDA","TOKEN","GARRISON","HIKE","TERRANCE","PHILIPPE","BARBRADY","COON","MYSTERION","MEPHESTO","TWEEK","JIMMY","CLYDE","TIMMY","BEBE","CRAIG","SCOTT"
     ];
     // value for gallery functioning
     let i = 1;
+    // fails counter
+    let z = 0;
     // value for word replacing
     let a = 0;
 
     let img = document.getElementById("image");
 
+    // random name
     document.getElementById("word").innerHTML = words[Math.floor(words.length * Math.random())];
 
     // visible word creation
@@ -68,23 +56,24 @@
                 }
                 x++
             })
-            if ((i === 10)){
-                chance.forEach(b => b.disabled = true);
-            }
             if (word.includes("_") === false){
                 img.src = gallery[11];
                 chance.forEach(z => z.disabled = true);
             }
             if (hide.includes(k.innerHTML) === false){
-                document.getElementById("number").innerHTML = i;
+                z++;
+                document.getElementById("number").innerHTML = z;
                 k.disabled = true;
                 k.style.opacity = "0.5";
                 img.src = gallery[i];
                 i++;
-                
             } else {
                 k.style.color = "green";
                 k.disabled = "true";
+            }
+            if ((i === 11)){
+                chance.forEach(b => b.disabled = true);
+                document.getElementsByClassName("rules")[0].innerHTML = "The name was : "+hide.join("")
             }
         })
     });
